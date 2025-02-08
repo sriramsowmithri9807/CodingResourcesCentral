@@ -1,5 +1,3 @@
-\`\`\`markdown
-
 # Roadmap to Mastering Data Structures and Algorithms (DSA) from Scratch 
 
 Welcome to your journey towards mastering Data Structures and Algorithms (DSA)\! This guide is meticulously crafted to be your trusted companion, leading you from the very basics to advanced problem-solving techniques. Whether you're a coding novice or have some programming experience, this roadmap provides a structured path, hand-picked resources, effective learning strategies, and a curated list of problems to solidify your DSA skills. Let's dive into the world of efficient and elegant algorithms\!
