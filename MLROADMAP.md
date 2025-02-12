@@ -1,4 +1,4 @@
-# Machine Learning Roadmap: From Beginner to Mastery 🚀
+# Machine Learning Roadmap: From Beginner to Mastery!!
 
 This roadmap provides a comprehensive and structured path to learn Machine Learning, progressing from fundamental concepts to advanced techniques. It is designed for individuals with little to no prior Machine Learning experience and aims to guide them towards mastery over a dedicated period of study and practice.
 
@@ -337,6 +337,7 @@ This 6-month master plan provides an aggressive but achievable pathway to master
 ---
 
 **Contact:** sowmithrisriram7@gmail.com
-```
+
+
 
 This 6-month plan is designed to be very detailed and action-oriented, focusing on specific algorithms and projects to ensure rapid progress towards Machine Learning mastery. Remember to combine this with the resource recommendations from the detailed roadmap for the best learning experience.
