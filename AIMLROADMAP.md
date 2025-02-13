@@ -1,5 +1,3 @@
-\`\`\`markdown
-
 # Roadmap to Becoming an AI/ML Expert (From Scratch) 🚀
 
 Welcome to your journey towards becoming an expert in the fascinating world of Artificial Intelligence and Machine Learning (AI/ML)\! This guide is designed to be your companion, leading you from the very basics to advanced concepts and projects. Whether you're a complete beginner or have some programming experience, this roadmap will provide you with a structured path, resources, and tips to master AI/ML. Let's embark on this exciting adventure\!
