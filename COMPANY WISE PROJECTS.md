@@ -1,6 +1,6 @@
-# Company-Wise Project Ideas: 100 Companies, 100 Projects to Ignite Your Portfolio! 🔥
+# Company-Wise Project Ideas: 100 Companies, 100 Projects to Ignite Your Portfolio! 
 
-Welcome to **Company-Wise Projects**! 👋
+Welcome to **Company-Wise Projects**! 
 
 This repository is your ultimate resource for **project inspiration**, categorized by company!  Whether you're looking to build a portfolio that stands out, learn by mimicking real-world applications, or simply need fresh project ideas, you've come to the right place.
 
@@ -18,7 +18,7 @@ Use this list to:
 
 **Let's dive into the project ideas!**
 
-## 🚀 100 Companies, 100 Project Ideas Table 🚀
+## 100 Companies, 100 Project Ideas Table 
 
 | Company Name           | Industry/Category        | Project Idea                                                    |
 |------------------------|-------------------------|--------------------------------------------------------------------|
