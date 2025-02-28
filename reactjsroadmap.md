@@ -4,7 +4,7 @@
 
 This roadmap is an expanded version, providing even more granular detail and specific free resources to guide you through learning ReactJS, from absolute beginner to advanced developer, within approximately 6 months.  We'll still focus on free tools and learning materials, ensuring accessibility for everyone.
 
-**Stract (From Scratch) - Deeper Dive:**
+## From Scratch - Deeper Dive:
 
 We still start assuming no prior React knowledge, building from web fundamentals. This detailed version provides even finer steps and resource suggestions for each stage.
 
