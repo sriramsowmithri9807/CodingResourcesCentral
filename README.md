@@ -1,6 +1,6 @@
 # CodingResourcesCentral
 
-# Welcome to CodingResourcesCentral! 🚀 Your All-in-One Hub for Coding Success!
+# Welcome to CodingResourcesCentral! Your All-in-One Hub for Coding Success!
 
 Hey there, fellow coder! 👋  You've stumbled upon **CodingResourcesCentral**, your go-to destination for everything you need to **level up your coding skills** and **nail your tech career goals!**
 
