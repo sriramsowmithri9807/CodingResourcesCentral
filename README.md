@@ -44,6 +44,8 @@ It's simple!  Just navigate through the folders and files to find the resources 
 *   **Dive into Specific Files:**  Open files (like the `DSAROADMAP.md`) to access detailed roadmaps, lists, and guides.
 *   **Contribute & Suggest!**  This is a community-driven resource!  If you have valuable resources to add, find errors, or have suggestions for improvement, **contributions are highly welcome!** (See the "Contributing" section below).
 
+  ![Image](https://github.com/user-attachments/assets/189716f6-b968-4b2e-89fe-c888fde7f8d0)
+
 ##  Ready to Dive In and Start Learning?  🚀
 
 Click around, explore the resources, and embark on your coding journey!  We hope **CodingResourcesCentral** becomes your trusted companion as you navigate the exciting world of code!
