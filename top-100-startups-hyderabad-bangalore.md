@@ -1,4 +1,4 @@
-# Top 100 Startups for Freshers in Hyderabad & Bangalore 🚀
+# Top 100 Startups for Freshers in Hyderabad & Bangalore 
 
 Here's a curated list of startups in Hyderabad and Bangalore that are great places for freshers to kickstart their careers. Remember to explore their LinkedIn pages and career websites for the latest opportunities\!
 
