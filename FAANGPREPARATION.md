@@ -1,4 +1,5 @@
-# FAANG Interview Preparation Roadmap: 3-Month Detailed Guide 🚀
+ 
+# FAANG Interview Preparation Roadmap: 3-Month Detailed Guide
 
 This roadmap is your comprehensive guide to preparing for and acing interviews at FAANG companies. It's designed to be followed over 3 months, assuming a dedicated study schedule of around 15-20 hours per week. Adjust the pace as needed based on your background and availability.
 
