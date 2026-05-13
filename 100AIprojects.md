@@ -37,10 +37,10 @@ RAG systems combine the generative power of large language models with external 
 
 **Core Resources**
 
-- LangChain RAG Documentation: https://python.langchain.com/docs/use_cases/question_answering/
-- LlamaIndex (formerly GPT Index): https://github.com/run-llama/llama_index
-- FAISS Vector Search by Facebook AI: https://github.com/facebookresearch/faiss
-- ChromaDB Open-Source Vector Store: https://github.com/chroma-core/chroma
+- [LangChain RAG Documentation](https://python.langchain.com/docs/use_cases/question_answering/)
+- [LlamaIndex (formerly GPT Index)](https://github.com/run-llama/llama_index)
+- [FAISS Vector Search by Facebook AI](https://github.com/facebookresearch/faiss)
+- [ChromaDB Open-Source Vector Store](https://github.com/chroma-core/chroma)
 
 ---
 
@@ -48,7 +48,7 @@ RAG systems combine the generative power of large language models with external 
 
 Build a pipeline that ingests PDF documents, splits them into chunks, embeds them using a sentence transformer, stores them in a vector database, and answers natural language questions using an LLM.
 
-Reference: https://github.com/run-llama/llama_index/tree/main/docs/examples/query_engine
+Reference: [LlamaIndex Query Engine Examples](https://github.com/run-llama/llama_index/tree/main/docs/examples/query_engine)
 
 ---
 
@@ -56,7 +56,7 @@ Reference: https://github.com/run-llama/llama_index/tree/main/docs/examples/quer
 
 Extend the basic RAG pipeline to handle multiple documents simultaneously. Implement source attribution so the model cites which document each answer comes from.
 
-Reference: https://github.com/langchain-ai/langchain/tree/master/cookbook
+Reference: [LangChain Cookbook](https://github.com/langchain-ai/langchain/tree/master/cookbook)
 
 ---
 
@@ -64,7 +64,7 @@ Reference: https://github.com/langchain-ai/langchain/tree/master/cookbook
 
 Implement a two-stage retrieval system: initial BM25 keyword retrieval followed by a cross-encoder re-ranker to improve answer relevance before passing context to the LLM.
 
-Reference: https://github.com/UKPLab/sentence-transformers/tree/master/examples/applications/retrieve_rerank
+Reference: [Sentence Transformers Retrieve and Rerank](https://github.com/UKPLab/sentence-transformers/tree/master/examples/applications/retrieve_rerank)
 
 ---
 
@@ -72,7 +72,7 @@ Reference: https://github.com/UKPLab/sentence-transformers/tree/master/examples/
 
 Build a RAG chatbot that maintains conversation history across turns. The system should reformulate follow-up questions using prior context before issuing retrieval queries.
 
-Reference: https://python.langchain.com/docs/use_cases/question_answering/chat_history
+Reference: [LangChain QA with Chat History](https://python.langchain.com/docs/use_cases/question_answering/chat_history)
 
 ---
 
@@ -80,7 +80,7 @@ Reference: https://python.langchain.com/docs/use_cases/question_answering/chat_h
 
 Implement a text-to-SQL RAG system that translates natural language questions into SQL queries, executes them against a relational database, and returns synthesized answers.
 
-Reference: https://github.com/run-llama/llama_index/blob/main/docs/examples/index_structs/struct_indices/SQLIndexDemo.ipynb
+Reference: [LlamaIndex SQL Index Demo](https://github.com/run-llama/llama_index/blob/main/docs/examples/index_structs/struct_indices/SQLIndexDemo.ipynb)
 
 ---
 
@@ -88,7 +88,7 @@ Reference: https://github.com/run-llama/llama_index/blob/main/docs/examples/inde
 
 Build a knowledge graph from a document corpus using entity extraction and relation detection. Use graph traversal to retrieve contextually connected entities before generation.
 
-Reference: https://github.com/microsoft/graphrag
+Reference: [Microsoft GraphRAG](https://github.com/microsoft/graphrag)
 
 ---
 
@@ -96,7 +96,7 @@ Reference: https://github.com/microsoft/graphrag
 
 Combine dense vector similarity search (semantic) with sparse BM25 keyword search using a weighted fusion strategy such as Reciprocal Rank Fusion (RRF).
 
-Reference: https://github.com/weaviate/weaviate/tree/main/examples
+Reference: [Weaviate Examples](https://github.com/weaviate/weaviate/tree/main/examples)
 
 ---
 
@@ -104,7 +104,7 @@ Reference: https://github.com/weaviate/weaviate/tree/main/examples
 
 Build an automated evaluation system for RAG pipelines using metrics such as faithfulness, answer relevancy, and context precision.
 
-Reference: https://github.com/explodinggradients/ragas
+Reference: [RAGAS Evaluation Framework](https://github.com/explodinggradients/ragas)
 
 ---
 
@@ -112,7 +112,7 @@ Reference: https://github.com/explodinggradients/ragas
 
 Wrap a RAG pipeline in a production-ready FastAPI server that streams responses token-by-token to the client using server-sent events.
 
-Reference: https://github.com/tiangolo/fastapi
+Reference: [FastAPI](https://github.com/tiangolo/fastapi)
 
 ---
 
@@ -120,7 +120,7 @@ Reference: https://github.com/tiangolo/fastapi
 
 Build a RAG system that classifies user queries and dynamically routes them to the appropriate retrieval strategy: vector search, SQL lookup, or web search.
 
-Reference: https://github.com/langchain-ai/langgraph/tree/main/examples
+Reference: [LangGraph Examples](https://github.com/langchain-ai/langgraph/tree/main/examples)
 
 ---
 
@@ -130,10 +130,10 @@ AI agents use LLMs as a reasoning engine to plan, use tools, and execute multi-s
 
 **Core Resources**
 
-- LangGraph Framework: https://github.com/langchain-ai/langgraph
-- AutoGen by Microsoft: https://github.com/microsoft/autogen
-- CrewAI Multi-Agent Framework: https://github.com/crewAIInc/crewAI
-- OpenAI Swarm (experimental): https://github.com/openai/swarm
+- [LangGraph Framework](https://github.com/langchain-ai/langgraph)
+- [AutoGen by Microsoft](https://github.com/microsoft/autogen)
+- [CrewAI Multi-Agent Framework](https://github.com/crewAIInc/crewAI)
+- [OpenAI Swarm (experimental)](https://github.com/openai/swarm)
 
 ---
 
@@ -141,7 +141,7 @@ AI agents use LLMs as a reasoning engine to plan, use tools, and execute multi-s
 
 Implement the ReAct (Reasoning + Acting) agent pattern from scratch. Equip the agent with tools such as web search, a calculator, and a code executor.
 
-Reference: https://arxiv.org/abs/2210.03629
+Reference: [ReAct Paper (arXiv)](https://arxiv.org/abs/2210.03629)
 
 ---
 
@@ -149,7 +149,7 @@ Reference: https://arxiv.org/abs/2210.03629
 
 Build an agent that reads a GitHub repository, identifies potential bugs and code smells, writes a structured review report, and optionally opens pull request comments.
 
-Reference: https://github.com/microsoft/autogen/tree/main/samples/apps
+Reference: [AutoGen Sample Apps](https://github.com/microsoft/autogen/tree/main/samples/apps)
 
 ---
 
@@ -157,7 +157,7 @@ Reference: https://github.com/microsoft/autogen/tree/main/samples/apps
 
 Architect a crew of specialized agents: a Researcher, a Writer, and an Editor. Each agent has a defined role and passes outputs to the next in sequence.
 
-Reference: https://github.com/crewAIInc/crewAI/tree/main/examples
+Reference: [CrewAI Examples](https://github.com/crewAIInc/crewAI/tree/main/examples)
 
 ---
 
@@ -165,7 +165,7 @@ Reference: https://github.com/crewAIInc/crewAI/tree/main/examples
 
 Build an agent that can navigate the web, fill forms, extract information, and report results using browser automation tools combined with an LLM planner.
 
-Reference: https://github.com/browser-use/browser-use
+Reference: [Browser Use](https://github.com/browser-use/browser-use)
 
 ---
 
@@ -173,7 +173,7 @@ Reference: https://github.com/browser-use/browser-use
 
 Create an agent that accepts a raw CSV file, autonomously runs exploratory data analysis, generates charts, identifies correlations, and produces a written summary report.
 
-Reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/pandas_dataframe_agent.ipynb
+Reference: [LangChain Pandas DataFrame Agent](https://github.com/langchain-ai/langchain/blob/master/cookbook/pandas_dataframe_agent.ipynb)
 
 ---
 
@@ -181,7 +181,7 @@ Reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/pandas
 
 Build an agent connected to a Gmail or Outlook inbox that classifies incoming emails by urgency, drafts suggested replies, and routes action items to a task manager.
 
-Reference: https://github.com/microsoft/autogen/tree/main/samples
+Reference: [AutoGen Samples](https://github.com/microsoft/autogen/tree/main/samples)
 
 ---
 
@@ -189,7 +189,7 @@ Reference: https://github.com/microsoft/autogen/tree/main/samples
 
 Design an agent that monitors application logs, detects anomalies, searches a knowledge base for known issues, and drafts a runbook entry or incident report automatically.
 
-Reference: https://github.com/langchain-ai/langgraph/blob/main/examples/agent_supervisor.ipynb
+Reference: [LangGraph Agent Supervisor](https://github.com/langchain-ai/langgraph/blob/main/examples/agent_supervisor.ipynb)
 
 ---
 
@@ -197,7 +197,7 @@ Reference: https://github.com/langchain-ai/langgraph/blob/main/examples/agent_su
 
 Implement an agent that critiques its own outputs, identifies errors in reasoning or code, and revises its answer through a structured self-reflection loop.
 
-Reference: https://arxiv.org/abs/2303.11366
+Reference: [Reflexion Paper (arXiv)](https://arxiv.org/abs/2303.11366)
 
 ---
 
@@ -205,7 +205,7 @@ Reference: https://arxiv.org/abs/2303.11366
 
 Build an agent that retrieves company filings, earnings transcripts, and financial news, synthesizes the information, and produces an investment thesis with risk factors.
 
-Reference: https://github.com/crewAIInc/crewAI/blob/main/examples/stock_analysis.py
+Reference: [CrewAI Stock Analysis Example](https://github.com/crewAIInc/crewAI/blob/main/examples/stock_analysis.py)
 
 ---
 
@@ -213,7 +213,7 @@ Reference: https://github.com/crewAIInc/crewAI/blob/main/examples/stock_analysis
 
 Implement a hierarchical planning agent (using frameworks such as HuggingGPT or Plan-and-Execute) that decomposes complex, multi-day tasks into subtasks and executes them sequentially.
 
-Reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/plan_and_execute_agent.ipynb
+Reference: [LangChain Plan and Execute Agent](https://github.com/langchain-ai/langchain/blob/master/cookbook/plan_and_execute_agent.ipynb)
 
 ---
 
@@ -223,10 +223,10 @@ NLP encompasses a wide range of text understanding and generation tasks, from se
 
 **Core Resources**
 
-- Hugging Face Transformers: https://github.com/huggingface/transformers
-- spaCy Industrial NLP: https://github.com/explosion/spaCy
-- NLTK Toolkit: https://github.com/nltk/nltk
-- AllenNLP Research Library: https://github.com/allenai/allennlp
+- [Hugging Face Transformers](https://github.com/huggingface/transformers)
+- [spaCy Industrial NLP](https://github.com/explosion/spaCy)
+- [NLTK Toolkit](https://github.com/nltk/nltk)
+- [AllenNLP Research Library](https://github.com/allenai/allennlp)
 
 ---
 
@@ -234,7 +234,7 @@ NLP encompasses a wide range of text understanding and generation tasks, from se
 
 Fine-tune a BERT-based model on a domain-specific review dataset (e.g., product reviews, clinical notes) to perform multi-class sentiment classification.
 
-Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification
+Reference: [Hugging Face Text Classification Examples](https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification)
 
 ---
 
@@ -242,7 +242,7 @@ Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorc
 
 Train a custom NER model to extract domain-specific entities such as medical terms, legal clauses, or financial instruments from unstructured text.
 
-Reference: https://spacy.io/usage/training
+Reference: [spaCy Training Guide](https://spacy.io/usage/training)
 
 ---
 
@@ -250,7 +250,7 @@ Reference: https://spacy.io/usage/training
 
 Fine-tune a sequence-to-sequence model (BART or T5) on a news dataset to generate concise, human-quality summaries of long-form articles.
 
-Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization
+Reference: [Hugging Face Summarization Examples](https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization)
 
 ---
 
@@ -258,7 +258,7 @@ Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorc
 
 Train a transformer-based translation model on a parallel corpus for a low-resource language pair and evaluate it using BLEU and chrF metrics.
 
-Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorch/translation
+Reference: [Hugging Face Translation Examples](https://github.com/huggingface/transformers/tree/main/examples/pytorch/translation)
 
 ---
 
@@ -266,7 +266,7 @@ Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorc
 
 Build a system that reads a passage and automatically generates high-quality comprehension questions, useful for educational platforms and automated quiz creation.
 
-Reference: https://github.com/patil-suraj/question_generation
+Reference: [Question Generation by patil-suraj](https://github.com/patil-suraj/question_generation)
 
 ---
 
@@ -274,7 +274,7 @@ Reference: https://github.com/patil-suraj/question_generation
 
 Implement a few-shot text classifier using a pre-trained LLM and prompt engineering. Compare its accuracy against a fully supervised fine-tuned model.
 
-Reference: https://github.com/huggingface/setfit
+Reference: [SetFit by Hugging Face](https://github.com/huggingface/setfit)
 
 ---
 
@@ -282,7 +282,7 @@ Reference: https://github.com/huggingface/setfit
 
 Build a system that identifies all mentions of the same entity in a document and links them, enabling downstream tasks like information extraction and document summarization.
 
-Reference: https://github.com/huggingface/neuralcoref
+Reference: [NeuralCoref by Hugging Face](https://github.com/huggingface/neuralcoref)
 
 ---
 
@@ -290,7 +290,7 @@ Reference: https://github.com/huggingface/neuralcoref
 
 Build a model that evaluates student essays along dimensions such as coherence, grammar, and argument strength, providing a score and written feedback.
 
-Reference: https://github.com/BNUDPCC/AES
+Reference: [AES by BNUDPCC](https://github.com/BNUDPCC/AES)
 
 ---
 
@@ -298,7 +298,7 @@ Reference: https://github.com/BNUDPCC/AES
 
 Build an NLP pipeline that identifies and classifies specific clauses in contracts (e.g., indemnification, governing law, termination) using a fine-tuned transformer.
 
-Reference: https://github.com/TheAtticusProject/cuad
+Reference: [CUAD Contract Understanding Dataset](https://github.com/TheAtticusProject/cuad)
 
 ---
 
@@ -306,7 +306,7 @@ Reference: https://github.com/TheAtticusProject/cuad
 
 Train an intent classifier using XLM-RoBERTa that handles customer service queries across five or more languages without language-specific fine-tuning.
 
-Reference: https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification
+Reference: [Hugging Face Text Classification Examples](https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification)
 
 ---
 
@@ -316,10 +316,10 @@ Computer vision enables machines to interpret and understand visual information 
 
 **Core Resources**
 
-- Ultralytics YOLOv8: https://github.com/ultralytics/ultralytics
-- OpenCV: https://github.com/opencv/opencv
-- torchvision: https://github.com/pytorch/vision
-- Detectron2 by Facebook AI: https://github.com/facebookresearch/detectron2
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [OpenCV](https://github.com/opencv/opencv)
+- [torchvision](https://github.com/pytorch/vision)
+- [Detectron2 by Facebook AI](https://github.com/facebookresearch/detectron2)
 
 ---
 
@@ -327,7 +327,7 @@ Computer vision enables machines to interpret and understand visual information 
 
 Deploy a YOLOv8 model to detect and track objects in a live video feed. Add a dashboard that displays object counts and confidence scores in real time.
 
-Reference: https://github.com/ultralytics/ultralytics/tree/main/examples
+Reference: [Ultralytics YOLOv8 Examples](https://github.com/ultralytics/ultralytics/tree/main/examples)
 
 ---
 
@@ -335,7 +335,7 @@ Reference: https://github.com/ultralytics/ultralytics/tree/main/examples
 
 Train a U-Net model to segment tumors or organs from medical imaging data (e.g., CT or MRI scans) using the Medical Segmentation Decathlon dataset.
 
-Reference: https://github.com/MIC-DKFZ/nnUNet
+Reference: [nnU-Net by MIC-DKFZ](https://github.com/MIC-DKFZ/nnUNet)
 
 ---
 
@@ -343,7 +343,7 @@ Reference: https://github.com/MIC-DKFZ/nnUNet
 
 Build a convolutional neural network that classifies facial expressions into categories (happy, sad, angry, surprised, etc.) and deploy it as a browser-based demo.
 
-Reference: https://github.com/HSE-asavchenko/face-emotion-recognition
+Reference: [Face Emotion Recognition by HSE](https://github.com/HSE-asavchenko/face-emotion-recognition)
 
 ---
 
@@ -351,7 +351,7 @@ Reference: https://github.com/HSE-asavchenko/face-emotion-recognition
 
 Build a system that detects tables, figures, headings, and paragraphs in scanned documents using a layout detection model, enabling structured data extraction from PDFs.
 
-Reference: https://github.com/microsoft/unilm/tree/master/layoutlm
+Reference: [LayoutLM by Microsoft](https://github.com/microsoft/unilm/tree/master/layoutlm)
 
 ---
 
@@ -359,7 +359,7 @@ Reference: https://github.com/microsoft/unilm/tree/master/layoutlm
 
 Build an end-to-end OCR pipeline using a text detection model combined with a recognition model, capable of handling curved or low-quality text in natural scene images.
 
-Reference: https://github.com/PaddlePaddle/PaddleOCR
+Reference: [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 ---
 
@@ -367,7 +367,7 @@ Reference: https://github.com/PaddlePaddle/PaddleOCR
 
 Train a model to identify defects on product surfaces using an industrial inspection dataset. Implement a one-class classification approach for detecting unseen defect types.
 
-Reference: https://github.com/openvinotoolkit/anomalib
+Reference: [Anomalib by OpenVINO](https://github.com/openvinotoolkit/anomalib)
 
 ---
 
@@ -375,7 +375,7 @@ Reference: https://github.com/openvinotoolkit/anomalib
 
 Use a human pose estimation model to analyze exercise form in video, count repetitions, and flag incorrect posture in real time.
 
-Reference: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+Reference: [OpenPose by CMU](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 ---
 
@@ -383,7 +383,7 @@ Reference: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 Train a semantic segmentation model on satellite imagery to classify land cover types (urban, forest, water, farmland) using the EuroSAT or DeepGlobe dataset.
 
-Reference: https://github.com/phelber/EuroSAT
+Reference: [EuroSAT Dataset](https://github.com/phelber/EuroSAT)
 
 ---
 
@@ -391,7 +391,7 @@ Reference: https://github.com/phelber/EuroSAT
 
 Implement a 3D object detection system using LiDAR point cloud data from the KITTI benchmark to detect vehicles and pedestrians for autonomous driving research.
 
-Reference: https://github.com/open-mmlab/mmdetection3d
+Reference: [MMDetection3D](https://github.com/open-mmlab/mmdetection3d)
 
 ---
 
@@ -399,7 +399,7 @@ Reference: https://github.com/open-mmlab/mmdetection3d
 
 Build a VQA model that takes an image and a natural language question as input and produces a free-form text answer. Fine-tune on the VQA v2 dataset.
 
-Reference: https://github.com/LAVIS-LM/LAVIS
+Reference: [LAVIS by Salesforce](https://github.com/LAVIS-LM/LAVIS)
 
 ---
 
@@ -409,10 +409,10 @@ Generative AI covers the development, fine-tuning, and evaluation of models that
 
 **Core Resources**
 
-- Hugging Face PEFT (Parameter-Efficient Fine-Tuning): https://github.com/huggingface/peft
-- Axolotl Fine-Tuning Framework: https://github.com/OpenAccess-AI-Collective/axolotl
-- LM Evaluation Harness: https://github.com/EleutherAI/lm-evaluation-harness
-- Ollama Local LLM Runner: https://github.com/ollama/ollama
+- [Hugging Face PEFT (Parameter-Efficient Fine-Tuning)](https://github.com/huggingface/peft)
+- [Axolotl Fine-Tuning Framework](https://github.com/OpenAccess-AI-Collective/axolotl)
+- [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [Ollama Local LLM Runner](https://github.com/ollama/ollama)
 
 ---
 
@@ -420,7 +420,7 @@ Generative AI covers the development, fine-tuning, and evaluation of models that
 
 Fine-tune an open-source LLM (Mistral, LLaMA 3, or Phi-3) on a domain-specific instruction dataset using LoRA adapters to reduce computational cost.
 
-Reference: https://github.com/huggingface/peft/tree/main/examples/sequence_classification
+Reference: [PEFT Examples by Hugging Face](https://github.com/huggingface/peft/tree/main/examples/sequence_classification)
 
 ---
 
@@ -428,7 +428,7 @@ Reference: https://github.com/huggingface/peft/tree/main/examples/sequence_class
 
 Build a developer assistant that generates boilerplate code from natural language specifications and explains existing code in plain English, using a code-specialized LLM.
 
-Reference: https://github.com/bigcode-project/starcoder
+Reference: [StarCoder by BigCode](https://github.com/bigcode-project/starcoder)
 
 ---
 
@@ -436,7 +436,7 @@ Reference: https://github.com/bigcode-project/starcoder
 
 Create an evaluation pipeline that tests an LLM across multiple benchmarks (MMLU, HellaSwag, TruthfulQA) and produces a comparative leaderboard.
 
-Reference: https://github.com/EleutherAI/lm-evaluation-harness
+Reference: [LM Evaluation Harness by EleutherAI](https://github.com/EleutherAI/lm-evaluation-harness)
 
 ---
 
@@ -444,7 +444,7 @@ Reference: https://github.com/EleutherAI/lm-evaluation-harness
 
 Build a pipeline that uses an LLM to reliably extract structured JSON data from unstructured text, using guided decoding or tool-calling to enforce schema constraints.
 
-Reference: https://github.com/outlines-dev/outlines
+Reference: [Outlines by dottxt-ai](https://github.com/outlines-dev/outlines)
 
 ---
 
@@ -452,7 +452,7 @@ Reference: https://github.com/outlines-dev/outlines
 
 Build an automated pipeline to generate, filter, and deduplicate instruction-tuning data from raw text corpora using Self-Instruct or Evol-Instruct methodologies.
 
-Reference: https://github.com/tatsu-lab/stanford_alpaca
+Reference: [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 ---
 
@@ -460,7 +460,7 @@ Reference: https://github.com/tatsu-lab/stanford_alpaca
 
 Build a tool that takes buggy code as input, identifies the root cause of the error, suggests a fix, and explains the reasoning step by step using chain-of-thought prompting.
 
-Reference: https://github.com/microsoft/PyDebugger
+Reference: [PyDebugger by Microsoft](https://github.com/microsoft/PyDebugger)
 
 ---
 
@@ -468,7 +468,7 @@ Reference: https://github.com/microsoft/PyDebugger
 
 Extend standard code generation with retrieval: the system searches a codebase index to find relevant function signatures and documentation before generating new code.
 
-Reference: https://github.com/BerriAI/litellm
+Reference: [LiteLLM](https://github.com/BerriAI/litellm)
 
 ---
 
@@ -476,7 +476,7 @@ Reference: https://github.com/BerriAI/litellm
 
 Build a classifier that identifies adversarial prompt injection attempts in user inputs to an LLM-powered application and filters or flags malicious queries.
 
-Reference: https://github.com/protectai/rebuff
+Reference: [Rebuff by ProtectAI](https://github.com/protectai/rebuff)
 
 ---
 
@@ -484,7 +484,7 @@ Reference: https://github.com/protectai/rebuff
 
 Build a system that accepts structured data (e.g., financial metrics, survey results) and uses an LLM to generate a polished narrative report with sections, headings, and insights.
 
-Reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/report_writing.ipynb
+Reference: [LangChain Report Writing Cookbook](https://github.com/langchain-ai/langchain/blob/master/cookbook/report_writing.ipynb)
 
 ---
 
@@ -492,7 +492,7 @@ Reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/report
 
 Investigate and implement strategies for continually updating an LLM with new knowledge without catastrophic forgetting, using techniques such as elastic weight consolidation or replay buffers.
 
-Reference: https://github.com/joeljang/continual-learning-for-language-models
+Reference: [Continual Learning for Language Models](https://github.com/joeljang/continual-learning-for-language-models)
 
 ---
 
@@ -502,10 +502,10 @@ Speech AI enables machines to understand, generate, and analyze spoken language 
 
 **Core Resources**
 
-- OpenAI Whisper: https://github.com/openai/whisper
-- Coqui TTS: https://github.com/coqui-ai/TTS
-- SpeechBrain Toolkit: https://github.com/speechbrain/speechbrain
-- Kaldi ASR Framework: https://github.com/kaldi-asr/kaldi
+- [OpenAI Whisper](https://github.com/openai/whisper)
+- [Coqui TTS](https://github.com/coqui-ai/TTS)
+- [SpeechBrain Toolkit](https://github.com/speechbrain/speechbrain)
+- [Kaldi ASR Framework](https://github.com/kaldi-asr/kaldi)
 
 ---
 
@@ -513,7 +513,7 @@ Speech AI enables machines to understand, generate, and analyze spoken language 
 
 Build a transcription API using OpenAI Whisper that automatically detects language, transcribes audio, adds punctuation, and outputs SRT subtitle files.
 
-Reference: https://github.com/openai/whisper
+Reference: [OpenAI Whisper](https://github.com/openai/whisper)
 
 ---
 
@@ -521,7 +521,7 @@ Reference: https://github.com/openai/whisper
 
 Build a pipeline that identifies and separates different speakers in a multi-speaker audio recording, outputting a timestamped transcript labelled by speaker.
 
-Reference: https://github.com/pyannote/pyannote-audio
+Reference: [pyannote-audio](https://github.com/pyannote/pyannote-audio)
 
 ---
 
@@ -529,7 +529,7 @@ Reference: https://github.com/pyannote/pyannote-audio
 
 Implement a voice cloning system that takes a short audio sample of a target speaker and synthesizes new speech in their voice from text input.
 
-Reference: https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech
+Reference: [Coqui TTS Recipes](https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech)
 
 ---
 
@@ -537,7 +537,7 @@ Reference: https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech
 
 Build a model that classifies the emotional tone of speech (anger, happiness, sadness, neutral) from audio features in real time using a streaming audio pipeline.
 
-Reference: https://github.com/speechbrain/speechbrain/tree/develop/recipes/IEMOCAP
+Reference: [SpeechBrain IEMOCAP Recipe](https://github.com/speechbrain/speechbrain/tree/develop/recipes/IEMOCAP)
 
 ---
 
@@ -545,7 +545,7 @@ Reference: https://github.com/speechbrain/speechbrain/tree/develop/recipes/IEMOC
 
 Train a lightweight keyword spotting model (using the Google Speech Commands dataset) optimized for deployment on microcontrollers or embedded devices with TFLite.
 
-Reference: https://github.com/ARM-software/ML-KWS-for-MCU
+Reference: [ML-KWS-for-MCU by ARM](https://github.com/ARM-software/ML-KWS-for-MCU)
 
 ---
 
@@ -553,7 +553,7 @@ Reference: https://github.com/ARM-software/ML-KWS-for-MCU
 
 Build a classifier that distinguishes between genuine human speech and synthetic or manipulated audio generated by TTS models, using the ASVspoof dataset.
 
-Reference: https://github.com/asvspoof-challenge/2021
+Reference: [ASVspoof 2021 Challenge](https://github.com/asvspoof-challenge/2021)
 
 ---
 
@@ -561,7 +561,7 @@ Reference: https://github.com/asvspoof-challenge/2021
 
 Build an end-to-end pipeline that transcribes a meeting recording, diarizes speakers, and produces an action-item summary using an LLM.
 
-Reference: https://github.com/openai/whisper/discussions
+Reference: [OpenAI Whisper Discussions](https://github.com/openai/whisper/discussions)
 
 ---
 
@@ -569,7 +569,7 @@ Reference: https://github.com/openai/whisper/discussions
 
 Train a convolutional neural network on mel-spectrograms extracted from audio clips to classify music into genres, using the GTZAN dataset.
 
-Reference: https://github.com/Hguimaraes/gtzan.keras
+Reference: [GTZAN Keras by Hguimaraes](https://github.com/Hguimaraes/gtzan.keras)
 
 ---
 
@@ -577,7 +577,7 @@ Reference: https://github.com/Hguimaraes/gtzan.keras
 
 Build a system that separates vocals, drums, bass, and other instruments from a mixed music track using a deep learning source separation model.
 
-Reference: https://github.com/facebookresearch/demucs
+Reference: [Demucs by Facebook Research](https://github.com/facebookresearch/demucs)
 
 ---
 
@@ -585,7 +585,7 @@ Reference: https://github.com/facebookresearch/demucs
 
 Build an end-to-end SLU system that combines ASR and NLU to directly classify the intent and extract entities from spoken utterances without intermediate text.
 
-Reference: https://github.com/speechbrain/speechbrain/tree/develop/recipes/SLURP
+Reference: [SpeechBrain SLURP Recipe](https://github.com/speechbrain/speechbrain/tree/develop/recipes/SLURP)
 
 ---
 
@@ -595,10 +595,10 @@ Reinforcement learning trains agents to make sequential decisions by maximizing 
 
 **Core Resources**
 
-- Stable-Baselines3: https://github.com/DLR-RM/stable-baselines3
-- RLlib by Ray: https://github.com/ray-project/ray/tree/master/rllib
-- OpenAI Gymnasium: https://github.com/Farama-Foundation/Gymnasium
-- CleanRL: https://github.com/vwxyzjn/cleanrl
+- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)
+- [RLlib by Ray](https://github.com/ray-project/ray/tree/master/rllib)
+- [OpenAI Gymnasium](https://github.com/Farama-Foundation/Gymnasium)
+- [CleanRL](https://github.com/vwxyzjn/cleanrl)
 
 ---
 
@@ -606,7 +606,7 @@ Reinforcement learning trains agents to make sequential decisions by maximizing 
 
 Implement DQN from scratch and train it on classic Atari games (Pong, Breakout). Reproduce key results from the original DeepMind paper and analyze learning curves.
 
-Reference: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/dqn_atari.py
+Reference: [CleanRL DQN Atari](https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/dqn_atari.py)
 
 ---
 
@@ -614,7 +614,7 @@ Reference: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/dqn_atari.py
 
 Implement PPO and train it on a continuous control benchmark (MuJoCo HalfCheetah or Ant) to learn smooth locomotion policies.
 
-Reference: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_continuous_action.py
+Reference: [CleanRL PPO Continuous Action](https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_continuous_action.py)
 
 ---
 
@@ -622,7 +622,7 @@ Reference: https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_continuous
 
 Build a multi-agent competitive game (e.g., a simplified soccer or capture-the-flag environment) and train agents using self-play to produce emergent competitive strategies.
 
-Reference: https://github.com/Farama-Foundation/PettingZoo
+Reference: [PettingZoo by Farama Foundation](https://github.com/Farama-Foundation/PettingZoo)
 
 ---
 
@@ -630,7 +630,7 @@ Reference: https://github.com/Farama-Foundation/PettingZoo
 
 Train an RL agent to make buy, sell, and hold decisions in a simulated stock market environment. Benchmark it against baseline strategies such as buy-and-hold.
 
-Reference: https://github.com/AI4Finance-Foundation/FinRL
+Reference: [FinRL by AI4Finance Foundation](https://github.com/AI4Finance-Foundation/FinRL)
 
 ---
 
@@ -638,7 +638,7 @@ Reference: https://github.com/AI4Finance-Foundation/FinRL
 
 Implement curriculum learning by progressively increasing task difficulty during training. Compare sample efficiency and final performance against standard uniform training.
 
-Reference: https://github.com/DLR-RM/stable-baselines3/blob/master/docs/guide/examples.rst
+Reference: [Stable-Baselines3 Examples](https://github.com/DLR-RM/stable-baselines3/blob/master/docs/guide/examples.rst)
 
 ---
 
@@ -646,7 +646,7 @@ Reference: https://github.com/DLR-RM/stable-baselines3/blob/master/docs/guide/ex
 
 Train an RL agent from a static logged dataset without any environment interaction, using offline RL algorithms such as Conservative Q-Learning (CQL) or IQL.
 
-Reference: https://github.com/takuseno/d3rlpy
+Reference: [d3rlpy Offline RL Library](https://github.com/takuseno/d3rlpy)
 
 ---
 
@@ -654,7 +654,7 @@ Reference: https://github.com/takuseno/d3rlpy
 
 Implement curiosity-driven exploration by adding an intrinsic reward signal based on prediction error of a world model, applied to a sparse-reward navigation task.
 
-Reference: https://github.com/pathak22/noreward-rl
+Reference: [Curiosity-Driven Exploration by Pathak](https://github.com/pathak22/noreward-rl)
 
 ---
 
@@ -662,7 +662,7 @@ Reference: https://github.com/pathak22/noreward-rl
 
 Train a robotic manipulation policy in simulation (using Isaac Gym or MuJoCo) and implement domain randomization techniques to enable transfer to a physical robot.
 
-Reference: https://github.com/NVIDIA-Omniverse/IsaacGymEnvs
+Reference: [Isaac Gym Environments by NVIDIA](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs)
 
 ---
 
@@ -670,7 +670,7 @@ Reference: https://github.com/NVIDIA-Omniverse/IsaacGymEnvs
 
 Implement a simplified Reinforcement Learning from Human Feedback (RLHF) pipeline: train a reward model from preference data, then fine-tune an LLM using PPO.
 
-Reference: https://github.com/CarperAI/trlx
+Reference: [trlX by CarperAI](https://github.com/CarperAI/trlx)
 
 ---
 
@@ -678,7 +678,7 @@ Reference: https://github.com/CarperAI/trlx
 
 Implement a two-level hierarchical RL architecture: a high-level manager sets subgoals while a low-level worker executes primitive actions to achieve them.
 
-Reference: https://github.com/tensorflow/agents/tree/master/tf_agents/agents/ddpg
+Reference: [TF-Agents DDPG](https://github.com/tensorflow/agents/tree/master/tf_agents/agents/ddpg)
 
 ---
 
@@ -688,10 +688,10 @@ MLOps covers the practices, tools, and systems required to deploy, monitor, and 
 
 **Core Resources**
 
-- MLflow Experiment Tracking: https://github.com/mlflow/mlflow
-- Weights and Biases: https://github.com/wandb/wandb
-- BentoML Model Serving: https://github.com/bentoml/BentoML
-- Kubeflow Pipelines: https://github.com/kubeflow/pipelines
+- [MLflow Experiment Tracking](https://github.com/mlflow/mlflow)
+- [Weights and Biases](https://github.com/wandb/wandb)
+- [BentoML Model Serving](https://github.com/bentoml/BentoML)
+- [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)
 
 ---
 
@@ -699,7 +699,7 @@ MLOps covers the practices, tools, and systems required to deploy, monitor, and 
 
 Build an end-to-end ML pipeline that tracks experiments, logs metrics and artifacts, compares model versions, and registers the best-performing model to the MLflow Model Registry.
 
-Reference: https://github.com/mlflow/mlflow/tree/master/examples
+Reference: [MLflow Examples](https://github.com/mlflow/mlflow/tree/master/examples)
 
 ---
 
@@ -707,7 +707,7 @@ Reference: https://github.com/mlflow/mlflow/tree/master/examples
 
 Package a trained machine learning model as a production-ready REST API using BentoML, including input validation, batching support, and Docker containerization.
 
-Reference: https://github.com/bentoml/BentoML/tree/main/examples
+Reference: [BentoML Examples](https://github.com/bentoml/BentoML/tree/main/examples)
 
 ---
 
@@ -715,7 +715,7 @@ Reference: https://github.com/bentoml/BentoML/tree/main/examples
 
 Set up a data version control system using DVC that tracks dataset changes alongside model checkpoints, enabling reproducible experiment reproduction.
 
-Reference: https://github.com/iterative/dvc
+Reference: [DVC by Iterative](https://github.com/iterative/dvc)
 
 ---
 
@@ -723,7 +723,7 @@ Reference: https://github.com/iterative/dvc
 
 Build a monitoring system that detects data drift and model performance degradation in production using statistical tests and alerts, visualized in a Grafana dashboard.
 
-Reference: https://github.com/evidentlyai/evidently
+Reference: [Evidently AI](https://github.com/evidentlyai/evidently)
 
 ---
 
@@ -731,7 +731,7 @@ Reference: https://github.com/evidentlyai/evidently
 
 Design and implement a lightweight feature store that computes, stores, and serves ML features consistently between training and inference to eliminate training-serving skew.
 
-Reference: https://github.com/feast-dev/feast
+Reference: [Feast Feature Store](https://github.com/feast-dev/feast)
 
 ---
 
@@ -739,7 +739,7 @@ Reference: https://github.com/feast-dev/feast
 
 Implement a hyperparameter optimization service using Optuna or Ray Tune that automatically searches for optimal model configurations using Bayesian optimization.
 
-Reference: https://github.com/optuna/optuna
+Reference: [Optuna](https://github.com/optuna/optuna)
 
 ---
 
@@ -747,7 +747,7 @@ Reference: https://github.com/optuna/optuna
 
 Build a complete CI/CD pipeline for an ML project using GitHub Actions: automated testing, model training, evaluation gating, and deployment to a staging environment.
 
-Reference: https://github.com/iterative/cml
+Reference: [CML by Iterative](https://github.com/iterative/cml)
 
 ---
 
@@ -755,7 +755,7 @@ Reference: https://github.com/iterative/cml
 
 Apply post-training quantization (INT8) and pruning techniques to a large vision or language model to reduce inference latency by 2-4x with minimal accuracy loss.
 
-Reference: https://github.com/intel/neural-compressor
+Reference: [Intel Neural Compressor](https://github.com/intel/neural-compressor)
 
 ---
 
@@ -763,7 +763,7 @@ Reference: https://github.com/intel/neural-compressor
 
 Implement distributed data-parallel training across multiple GPUs for a large image classification model and measure linear scaling efficiency.
 
-Reference: https://github.com/pytorch/examples/tree/main/distributed/ddp-tutorial-series
+Reference: [PyTorch DDP Tutorial Series](https://github.com/pytorch/examples/tree/main/distributed/ddp-tutorial-series)
 
 ---
 
@@ -771,7 +771,7 @@ Reference: https://github.com/pytorch/examples/tree/main/distributed/ddp-tutoria
 
 Deploy a large language model with vLLM's PagedAttention-based serving system and benchmark throughput and latency improvements over naive Hugging Face inference.
 
-Reference: https://github.com/vllm-project/vllm
+Reference: [vLLM](https://github.com/vllm-project/vllm)
 
 ---
 
@@ -781,10 +781,10 @@ AI is transforming scientific discovery and healthcare by accelerating drug disc
 
 **Core Resources**
 
-- DeepMind AlphaFold: https://github.com/google-deepmind/alphafold
-- MONAI Medical Imaging Framework: https://github.com/Project-MONAI/MONAI
-- RDKit Cheminformatics: https://github.com/rdkit/rdkit
-- BioNeMo by NVIDIA: https://github.com/NVIDIA/BioNeMo
+- [DeepMind AlphaFold](https://github.com/google-deepmind/alphafold)
+- [MONAI Medical Imaging Framework](https://github.com/Project-MONAI/MONAI)
+- [RDKit Cheminformatics](https://github.com/rdkit/rdkit)
+- [BioNeMo by NVIDIA](https://github.com/NVIDIA/BioNeMo)
 
 ---
 
@@ -792,7 +792,7 @@ AI is transforming scientific discovery and healthcare by accelerating drug disc
 
 Train a convolutional neural network on the NIH ChestX-ray14 dataset to classify 14 thoracic pathologies from frontal chest radiographs and generate Grad-CAM visualizations.
 
-Reference: https://github.com/jrzech/reproduce-chexnet
+Reference: [Reproduce CheXNet](https://github.com/jrzech/reproduce-chexnet)
 
 ---
 
@@ -800,7 +800,7 @@ Reference: https://github.com/jrzech/reproduce-chexnet
 
 Use AlphaFold2 or ESMFold to predict the 3D structure of a custom protein sequence and analyze the predicted structure against experimentally determined structures in the PDB.
 
-Reference: https://github.com/google-deepmind/alphafold
+Reference: [AlphaFold by DeepMind](https://github.com/google-deepmind/alphafold)
 
 ---
 
@@ -808,7 +808,7 @@ Reference: https://github.com/google-deepmind/alphafold
 
 Build a graph neural network that predicts the binding affinity between drug molecules and protein targets, using the BindingDB or KIBA benchmark dataset.
 
-Reference: https://github.com/thinng/GraphDTA
+Reference: [GraphDTA](https://github.com/thinng/GraphDTA)
 
 ---
 
@@ -816,7 +816,7 @@ Reference: https://github.com/thinng/GraphDTA
 
 Fine-tune a biomedical language model (BioGPT or ClinicalBERT) on clinical notes to generate concise, accurate discharge summaries for electronic health record systems.
 
-Reference: https://github.com/EmilyAlsentzer/clinicalBERT
+Reference: [ClinicalBERT by EmilyAlsentzer](https://github.com/EmilyAlsentzer/clinicalBERT)
 
 ---
 
@@ -824,7 +824,7 @@ Reference: https://github.com/EmilyAlsentzer/clinicalBERT
 
 Train a transformer model on DNA sequences to classify functional genomic elements (promoters, enhancers, splice sites) using the ENCODE or GENCODE dataset.
 
-Reference: https://github.com/lucidrains/enformer-pytorch
+Reference: [Enformer PyTorch](https://github.com/lucidrains/enformer-pytorch)
 
 ---
 
@@ -832,7 +832,7 @@ Reference: https://github.com/lucidrains/enformer-pytorch
 
 Build a hybrid model combining epidemiological compartmental models (SIR/SEIR) with neural networks to forecast disease spread from real-world case data.
 
-Reference: https://github.com/CSSEGISandData/COVID-19
+Reference: [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19)
 
 ---
 
@@ -840,7 +840,7 @@ Reference: https://github.com/CSSEGISandData/COVID-19
 
 Train a multiple-instance learning model to classify whole-slide pathology images for cancer detection, handling the gigapixel resolution challenge through patch-based processing.
 
-Reference: https://github.com/mahmoodlab/CLAM
+Reference: [CLAM by Mahmood Lab](https://github.com/mahmoodlab/CLAM)
 
 ---
 
@@ -848,7 +848,7 @@ Reference: https://github.com/mahmoodlab/CLAM
 
 Build a generative model (using a variational autoencoder or flow model) that designs novel drug-like molecules with targeted chemical properties using the ZINC dataset.
 
-Reference: https://github.com/bowenliu16/rl_graph_generation
+Reference: [RL Graph Generation](https://github.com/bowenliu16/rl_graph_generation)
 
 ---
 
@@ -856,7 +856,7 @@ Reference: https://github.com/bowenliu16/rl_graph_generation
 
 Train a multimodal model that generates structured radiology reports from chest X-ray images, combining a vision encoder with a language decoder.
 
-Reference: https://github.com/cuhksz-nlp/R2Gen
+Reference: [R2Gen Medical Report Generation](https://github.com/cuhksz-nlp/R2Gen)
 
 ---
 
@@ -864,7 +864,7 @@ Reference: https://github.com/cuhksz-nlp/R2Gen
 
 Build an NLP classifier that identifies signals of depression, anxiety, or crisis in social media posts, with careful attention to ethical considerations and bias mitigation.
 
-Reference: https://github.com/kharrigian/mental-health-datasets
+Reference: [Mental Health Datasets by kharrigian](https://github.com/kharrigian/mental-health-datasets)
 
 ---
 
@@ -874,10 +874,10 @@ Multimodal systems combine information from multiple modalities (text, image, au
 
 **Core Resources**
 
-- OpenAI CLIP: https://github.com/openai/CLIP
-- LLaVA Visual Instruction Tuning: https://github.com/haotian-liu/LLaVA
-- BLIP-2 by Salesforce: https://github.com/salesforce/LAVIS
-- ImageBind by Meta AI: https://github.com/facebookresearch/ImageBind
+- [OpenAI CLIP](https://github.com/openai/CLIP)
+- [LLaVA Visual Instruction Tuning](https://github.com/haotian-liu/LLaVA)
+- [BLIP-2 by Salesforce](https://github.com/salesforce/LAVIS)
+- [ImageBind by Meta AI](https://github.com/facebookresearch/ImageBind)
 
 ---
 
@@ -885,7 +885,7 @@ Multimodal systems combine information from multiple modalities (text, image, au
 
 Use OpenAI CLIP to build a zero-shot image classification system that classifies images into arbitrary categories defined by natural language descriptions, with no task-specific training.
 
-Reference: https://github.com/openai/CLIP
+Reference: [OpenAI CLIP](https://github.com/openai/CLIP)
 
 ---
 
@@ -893,7 +893,7 @@ Reference: https://github.com/openai/CLIP
 
 Build a cross-modal search engine where users can query using an image to retrieve semantically similar text passages, or query with text to retrieve matching images.
 
-Reference: https://github.com/rom1504/clip-retrieval
+Reference: [CLIP Retrieval](https://github.com/rom1504/clip-retrieval)
 
 ---
 
@@ -901,7 +901,7 @@ Reference: https://github.com/rom1504/clip-retrieval
 
 Fine-tune LLaVA or a similar vision-language model on a custom visual instruction dataset to follow complex commands involving image understanding and reasoning.
 
-Reference: https://github.com/haotian-liu/LLaVA
+Reference: [LLaVA by Haotian Liu](https://github.com/haotian-liu/LLaVA)
 
 ---
 
@@ -909,7 +909,7 @@ Reference: https://github.com/haotian-liu/LLaVA
 
 Build a system that answers natural language questions about video content by extracting key frames, captioning them, and using an LLM to reason over the temporal narrative.
 
-Reference: https://github.com/MILVLG/singularity
+Reference: [Singularity by MILVLG](https://github.com/MILVLG/singularity)
 
 ---
 
@@ -917,7 +917,7 @@ Reference: https://github.com/MILVLG/singularity
 
 Build a classifier that identifies fake news by jointly modeling the credibility of the textual claim and the consistency of accompanying images, using the FakeNewsNet dataset.
 
-Reference: https://github.com/KaiDMML/FakeNewsNet
+Reference: [FakeNewsNet Dataset](https://github.com/KaiDMML/FakeNewsNet)
 
 ---
 
@@ -925,7 +925,7 @@ Reference: https://github.com/KaiDMML/FakeNewsNet
 
 Build an application that edits specific regions of an image based on natural language instructions, using diffusion-based inpainting models combined with CLIP guidance.
 
-Reference: https://github.com/timothybrooks/instruct-pix2pix
+Reference: [InstructPix2Pix by Tim Brooks](https://github.com/timothybrooks/instruct-pix2pix)
 
 ---
 
@@ -933,7 +933,7 @@ Reference: https://github.com/timothybrooks/instruct-pix2pix
 
 Build a sentiment classifier that fuses acoustic features from speech, facial expressions from video, and transcribed text to predict the overall sentiment of a spoken utterance.
 
-Reference: https://github.com/declare-lab/multimodal-sentiment-analysis
+Reference: [Multimodal Sentiment Analysis by DeclareAI](https://github.com/declare-lab/multimodal-sentiment-analysis)
 
 ---
 
@@ -941,7 +941,7 @@ Reference: https://github.com/declare-lab/multimodal-sentiment-analysis
 
 Build an automatic speech recognition system that incorporates lip movement video as an additional input signal to improve accuracy in noisy acoustic environments.
 
-Reference: https://github.com/mpc001/auto_avsr
+Reference: [Auto-AVSR](https://github.com/mpc001/auto_avsr)
 
 ---
 
@@ -949,7 +949,7 @@ Reference: https://github.com/mpc001/auto_avsr
 
 Build an end-to-end image captioning system using a CNN image encoder and a transformer decoder. Fine-tune and evaluate on the COCO Captions benchmark.
 
-Reference: https://github.com/ruotianluo/ImageCaptioning.pytorch
+Reference: [ImageCaptioning.pytorch by ruotianluo](https://github.com/ruotianluo/ImageCaptioning.pytorch)
 
 ---
 
@@ -957,7 +957,7 @@ Reference: https://github.com/ruotianluo/ImageCaptioning.pytorch
 
 Design an intelligent tutoring assistant that accepts diagrams, handwritten equations, and natural language questions from students, provides step-by-step explanations, and adapts to the learner's level.
 
-Reference: https://github.com/microsoft/guidance
+Reference: [Microsoft Guidance](https://github.com/microsoft/guidance)
 
 ---
 
@@ -965,14 +965,14 @@ Reference: https://github.com/microsoft/guidance
 
 The following curated resources are recommended regardless of domain:
 
-- Papers With Code (State-of-the-Art Benchmarks): https://paperswithcode.com
-- Hugging Face Hub (Models and Datasets): https://huggingface.co
-- ArXiv AI Preprints: https://arxiv.org/list/cs.AI/recent
-- Deep Learning Textbook (Goodfellow et al.): https://www.deeplearningbook.org
-- fast.ai Practical Deep Learning: https://course.fast.ai
-- Stanford CS229 Machine Learning: https://cs229.stanford.edu
-- Full Stack Deep Learning: https://fullstackdeeplearning.com
-- Andrej Karpathy's Neural Networks from Scratch: https://github.com/karpathy/nn-zero-to-hero
+- [Papers With Code (State-of-the-Art Benchmarks)](https://paperswithcode.com)
+- [Hugging Face Hub (Models and Datasets)](https://huggingface.co)
+- [ArXiv AI Preprints](https://arxiv.org/list/cs.AI/recent)
+- [Deep Learning Textbook (Goodfellow et al.)](https://www.deeplearningbook.org)
+- [fast.ai Practical Deep Learning](https://course.fast.ai)
+- [Stanford CS229 Machine Learning](https://cs229.stanford.edu)
+- [Full Stack Deep Learning](https://fullstackdeeplearning.com)
+- [Andrej Karpathy's Neural Networks from Scratch](https://github.com/karpathy/nn-zero-to-hero)
 
 ---
 
